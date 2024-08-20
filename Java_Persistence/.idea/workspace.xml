@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8b04b43-9e63-42ef-8aa3-524656abba35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/src/main/java/io/Petrov_Todor/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/src/main/java/io/Petrov_Todor/dao/GestioneEventiDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/src/main/java/io/Petrov_Todor/entities/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/src/main/java/io/Petrov_Todor/entities/TipoEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/src/main/java/io/Petrov_Todor/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestioneEventi/src/test/java/io/Petrov_Todor/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/dao/StudentsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/TypeStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/Petrov_Todor/ApplicationTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2kulF2eS3wgFxaPBGqiWVd68piv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8b04b43-9e63-42ef-8aa3-524656abba35" name="Changes" comment="" />
+      <created>1721637509784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721637509784</updated>
+    </task>
+    <servers />
+  </component>
+</project>
