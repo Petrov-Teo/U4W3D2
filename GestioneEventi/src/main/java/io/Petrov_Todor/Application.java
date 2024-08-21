@@ -3,6 +3,7 @@ package io.Petrov_Todor;
 import io.Petrov_Todor.dao.GestioneEventiDAO;
 import io.Petrov_Todor.entities.Evento;
 import io.Petrov_Todor.entities.TipoEvento;
+import io.Petrov_Todor.exceptions.NotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
@@ -41,7 +42,7 @@ public class Application {
                 8500);
 
 // DATA SAVING
-/*
+
         try {
             ev.save(eventoPetrovi);
             ev.save(eventoMorini);
@@ -50,7 +51,7 @@ public class Application {
         } catch (NotFoundException ex) {
             System.out.println(ex.getMessage());
         }
-*/
+
 //DATA RECOVERY
 /*
         try {

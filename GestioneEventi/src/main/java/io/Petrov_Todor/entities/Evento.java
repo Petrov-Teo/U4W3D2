@@ -4,18 +4,23 @@ package io.Petrov_Todor.entities;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.UUID;
 
 @Entity
 public class Evento {
     @Id
     @GeneratedValue
-    private long id;
+    private UUID id;
     private String titolo;
     private LocalDate dataEvento;
     private String descrizione;
     @Enumerated(EnumType.STRING)
     private TipoEvento tipoEvento;
     private int numeroMassimoPartecipanti;
+
+    @OneToOne
+    private Location_events location_id;
+
 
     public Evento() {
     }
@@ -28,7 +33,7 @@ public class Evento {
         this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
     }
 
-    public long getId() {
+    public UUID getId() {
         return id;
     }
 
