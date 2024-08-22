@@ -5,7 +5,6 @@ import io.Petrov_Todor.dao.LocationEventsDAO;
 import io.Petrov_Todor.dao.ParticipationDAO;
 import io.Petrov_Todor.dao.PersonDAO;
 import io.Petrov_Todor.entities.*;
-import io.Petrov_Todor.exceptions.NotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
@@ -127,14 +126,14 @@ public class Application {
         Participation participation1 = new Participation(calemmeID, petroviEventoID, Stato.CONFERMATO);
         Participation participation2 = new Participation(marianiID, funeraleEventoID, Stato.DA_CONFERMARE);
         Participation participation3 = new Participation(colliID, matimonioEventoID, Stato.CONFERMATO);
-
-        try {
-            participationDAO.save(participation1);
-            participationDAO.save(participation2);
-            participationDAO.save(participation3);
-
-        } catch (NotFoundException ex) {
-            System.out.println(ex.getMessage());
-        }
+//
+//        try {
+//            participationDAO.save(participation1);
+//            participationDAO.save(participation2);
+//            participationDAO.save(participation3);
+//
+//        } catch (NotFoundException ex) {
+//            System.out.println(ex.getMessage());
+//        }
     }
 }
