@@ -7,17 +7,17 @@ import jakarta.persistence.Id;
 import java.util.UUID;
 
 @Entity
-public class Location_events {
+public class Location {
     @Id
     @GeneratedValue
     private UUID id;
     private String nome;
     private String citta;
 
-    public Location_events() {
+    public Location() {
     }
 
-    public Location_events(String nome, String citta) {
+    public Location(String nome, String citta) {
         this.nome = nome;
         this.citta = citta;
     }

@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8554b93d-cdf7-4a14-81f3-87d576c31f3d" name="Changes" comment="Aggiornato con saving,recovery,update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Location_events.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/dao/LocationEventsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/dao/ParticipationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/GenderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Participation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Stato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/dao/GestioneEventiDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/dao/GestioneEventiDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Location_events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/entities/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/exceptions/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/Petrov_Todor/exceptions/NotFoundException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

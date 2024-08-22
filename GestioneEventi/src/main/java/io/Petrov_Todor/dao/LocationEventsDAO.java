@@ -1,40 +1,40 @@
 package io.Petrov_Todor.dao;
 
-import io.Petrov_Todor.entities.Evento;
+import io.Petrov_Todor.entities.Location;
 import io.Petrov_Todor.exceptions.NotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 
 import java.util.UUID;
 
-public class GestioneEventiDAO {
+public class LocationEventsDAO {
     private final EntityManager em;
 
-    public GestioneEventiDAO(EntityManager em) {
+    public LocationEventsDAO(EntityManager em) {
         this.em = em;
     }
 
-    public void save(Evento evento) {
+    public void save(Location location) {
         // Fase uno - chiediamo a Manager di fornirci una transazione
         EntityTransaction transaction = em.getTransaction();
         // Fase due - Eseguiamo la transazione
         transaction.begin();
         // Fase tre - Aggiungiamo l'oggetto al Persistence Context
-        em.persist(evento);
+        em.persist(location);
         // Fase quattro - concludiamo la transazione
         transaction.commit();
-        System.out.println(evento + "- E' stato salvato correttamente!");
+        System.out.println(location + "- E' stata salvato correttamente!");
     }
 
-    public Evento findById(String id) {
-        Evento find = em.find(Evento.class, UUID.fromString(id));
+    public Location findById(String id) {
+        Location find = em.find(Location.class, UUID.fromString(id));
         if (find == null) throw new NotFoundException(id);
         return find;
     }
 
     public void findByIdAndDelete(String id) {
         // fase zero - ricerchiamo l'oggetto
-        Evento find = this.findById(id);
+        Location find = this.findById(id);
 
         // Fase uno - chiediamo a Manager di fornirci una transazione
         EntityTransaction transaction = em.getTransaction();
